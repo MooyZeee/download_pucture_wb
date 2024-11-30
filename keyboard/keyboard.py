@@ -13,6 +13,7 @@ keyboard_main = InlineKeyboardMarkup(inline_keyboard=[
 ])
 
 add_new_admin_user_keyboard = InlineKeyboardMarkup(inline_keyboard=[
+    [InlineKeyboardButton(text='🧑‍💼Рассылка', callback_data='broadcast_message')],
     [InlineKeyboardButton(text='🧑‍💼Добавить нового админа', callback_data='new_admin_data')],
     [InlineKeyboardButton(text='❌Удалить админа', callback_data='remove_admin_list_data')],
     [InlineKeyboardButton(text='📈Добавить новую группу для подписки', callback_data='add_new_group_username_data')],

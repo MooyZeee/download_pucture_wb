@@ -25,6 +25,7 @@ def get_product_info(url):
         price_with_discount = old_price - discrout_result
         image_link = product.get("image")
 
+
     except requests.RequestException as e:
         print(f"Ошибка при запросе: {e}")
     except Exception as e:
