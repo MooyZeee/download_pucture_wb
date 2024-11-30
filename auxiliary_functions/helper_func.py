@@ -4,7 +4,7 @@ import requests
 import validators
 
 admin_list = '../database/admin_list.txt'
-player_data = '..database//players_list_db.txt'
+player_data = '../database/players_list_db.txt'
 
 
 def get_anonim(id):

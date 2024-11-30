@@ -3,13 +3,13 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 keyboard_main_admin = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text='Получить информацию о товаре', callback_data='download_picture_data')],
-    # [InlineKeyboardButton(text='Скачать видео с товара', callback_data='download_video_data')],
+    [InlineKeyboardButton(text='Скачать видео с товара', callback_data='download_video_data')],
     [InlineKeyboardButton(text='Админ панель', callback_data='admin_data')],
 ])
 
 keyboard_main = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text='Получить информацию о товаре', callback_data='download_picture_data')],
-    # [InlineKeyboardButton(text='Скачать видео с товара', callback_data='download_video_data')]
+    [InlineKeyboardButton(text='Скачать видео с товара', callback_data='download_video_data')]
 ])
 
 add_new_admin_user_keyboard = InlineKeyboardMarkup(inline_keyboard=[
